@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints whether a random number is postive or negative
+ * main - prints all the numbers of base 16 in lowercase
  * Return: 0
  */
 
