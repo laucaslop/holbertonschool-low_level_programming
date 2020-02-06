@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints whether a random number is postive or negative
- * Return: 0
+* main - prints the lowercase alphabet in reversee
+* Return: 0
  */
 
 int main(void)
