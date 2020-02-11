@@ -2,17 +2,19 @@
 
 /**
  * main - prints the alphabet in lowercase
- * Return: 0
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
+
 {
-	char c;
+	int a;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	a = 'a';
+	while (a <= 'z')
 	{
-		_putchar (c++);
+		_putchar (a++);
 	}
-	_putchar('\n');
+	_putchar(10);
 
-	return (0);
+	return;
 }

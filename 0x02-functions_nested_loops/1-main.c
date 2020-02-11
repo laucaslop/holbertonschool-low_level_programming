@@ -1,5 +1,3 @@
-#include "holberton.h"
-
 /**
  * main - check the code for Holberton School students.
  *
@@ -7,6 +5,6 @@
  */
 int main(void)
 {
-    times_table();
+    print_alphabet();
     return (0);
 }
