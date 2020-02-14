@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_diagonal - draw a diagonal line
+* print_triangle - draw a triangle
 * return - void
 * @size: integer
 */
