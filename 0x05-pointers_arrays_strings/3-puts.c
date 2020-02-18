@@ -2,9 +2,9 @@
 
 /**
 * _puts - main
-* Return: void
 * void: nothing
 * @str: char pointer
+* Return: void
 **/
 
 void _puts(char *str)
@@ -13,8 +13,8 @@ void _puts(char *str)
 	int c;
 
 	for (c = 0; str[c] != '\0'; c++)
-		{
-			_putchar(str[c]);
-		}
+	{
+		_putchar(str[c]);
+	}
 	_putchar('\n');
 }
