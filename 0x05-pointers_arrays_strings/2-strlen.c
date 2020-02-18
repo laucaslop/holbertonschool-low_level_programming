@@ -1,11 +1,11 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
 
 /**
-* _strlen - main entry
+* _strlen - main
 * void: nothing
 * @s: char pointer
-* return: void
+* Return: void
 **/
 
 int _strlen(char *s)
@@ -15,9 +15,9 @@ int _strlen(char *s)
 
 	while (s[c] != '\0')
 
-		{
+	{
 		c++;
-		}
+	}
 
 	return (c);
 }
