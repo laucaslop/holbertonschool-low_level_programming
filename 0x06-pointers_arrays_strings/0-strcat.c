@@ -3,10 +3,9 @@
 
 /**
 * *_strcat - main
-* void: nothing
 * @dest: char pointer
 * @src: char pointer
-* Return: void
+* Return: dest
 */
 
 char *_strcat(char *dest, char *src)
