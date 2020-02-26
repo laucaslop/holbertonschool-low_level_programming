@@ -9,14 +9,18 @@
 
 int prime(unsigned int n, unsigned int j)
 {
-	if (n % j == 0)
+	if (n == j)
 	{
-		if (n == j)
 		return (1);
-		else
+	}
+	else if (!(n % j))
+	{
 		return (0);
 	}
-	return (0 + prime(n, j + 1));
+	else
+	{
+	return (prime(n, j + 1));
+	}
 }
 
 /**
@@ -28,14 +32,8 @@ int prime(unsigned int n, unsigned int j)
 int is_prime_number(int n)
 
 {
-	if (n < 0)
-	return (-1);
-
-	else if (n == 0)
+	if (n < 2)
 	return (0);
-
-	else if (n == 1)
-	return (1);
 
 	return (prime(n, 2));
 }
