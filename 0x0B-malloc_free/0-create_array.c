@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+
 /**
 * create_array - main
 * @size: unsigned int
@@ -15,6 +16,10 @@ char *create_array(unsigned int size, char c)
 
 	arr = malloc(sizeof(c) * size);
 	if (size == 0)
+	{
+		return (NULL);
+	}
+	else if (arr == 0)
 	{
 		return (NULL);
 	}
