@@ -1,18 +1,17 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOG_H
+#define DOG_H
 
-/*
-* typedef struct - main
+/**
+* dog_t - typedef
 */
 
 typedef struct dog dog_t;
- 
+
 /**
-* struct dog -main entry.
-* @name: pointer to a char
-* @age: float
-* @owner: pointer to a char
-* Description: types struct dog
+* struct dog - main
+* @name: dog name
+* @age: dog age
+* @owner: dog owner
 */
 
 struct dog
@@ -20,7 +19,7 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
