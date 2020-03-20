@@ -1,7 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * print_list - main
 * @h: pointer to elemnts of type list_t
@@ -10,14 +9,28 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t c;
+	size_t c = 0;
+	list_t *list;
 
-	c = 0;
-	while (h != NULL)
+	list = (list_t *)h;
+	for (; list != NULL; c++)
+
 	{
-		printf("[%u] %s\n", h->len, h->str);
-		h = h->next;
-		c++;
+		if (list->str == NULL)
+
+		{
+
+		printf("[0] (nil)\n");
+
+		}
+
+		else
+
+		{
+			printf("[%d] %s\n", list->len, list->str);
+		}
+		list = list->next;
 	}
+
 	return (c);
 }
