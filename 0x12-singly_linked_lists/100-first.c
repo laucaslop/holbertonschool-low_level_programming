@@ -2,6 +2,7 @@
 
 /**
 * __attribute__ ((constructor)) premain - function to execute before main
+* first - print message before the main
 */
 void first(void) __attribute__ ((constructor));
 
