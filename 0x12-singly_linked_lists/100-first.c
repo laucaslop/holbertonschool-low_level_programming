@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
-* __attribute__ ((constructor)) premain - function to execute before main
-* first - print message before the main
+* hare - function that prints beore main
 */
-void first(void) __attribute__ ((constructor));
+void hare(void) __attribute__ ((constructor));
 
-void first(void)
+void hare(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
