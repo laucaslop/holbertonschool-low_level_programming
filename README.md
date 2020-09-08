@@ -1,1 +1,1 @@
-#CISFUN Hello, World
+C is fun
