@@ -25,3 +25,8 @@ void hash_table_print(const hash_table_t *ht)
 			tmp = tmp->next;
 			flag = 1;
 		}
+
+		i++;
+	}
+	printf("}\n");
+}
